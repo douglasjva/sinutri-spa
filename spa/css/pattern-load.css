@@ -1,0 +1,16 @@
+.main-preloader {
+	position: absolute;
+    left: 58%;
+    top: 45%;
+}
+
+.main-message {
+	position: absolute;
+    left: 50%;
+    top: 55%;
+}
+
+.message-load {
+	color: #757575;
+	font-size: 1.2em;
+}

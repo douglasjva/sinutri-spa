@@ -1,0 +1,39 @@
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">Meu Perfil</a></li>
+  <li><a href="#!">Sair</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Sobre o SiNutri</a></li>
+</ul>
+<nav class="nav-menu">
+	<img class="logo-nav-bar" src="img/logo_sinutri_simbolo.png">
+	<a href="#" class="brand-logo">SiNutri</a>
+  <ul id="slide-out" class="side-nav fixed bottom-toolbar">
+    <li class="bold">
+      <a href="#!" class="waves-effect waves-teal">
+        <img class="icon-item-menu-nav" src="img/icon_pacientes.png">
+        <span class="text-item-menu-nav">Pacientes</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#!" class="waves-effect waves-teal">
+        <img class="icon-item-menu-nav" src="img/icon_grafico.png">
+        <span class="text-item-menu-nav">Gráficos</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="right hide-on-med-and-down list-menu">
+    <li>
+    	<a class="dropdown-button" href="#!" data-activates="dropdown1">
+    		<img class="nav-menu-config" src="img/ic_more_vert_white_48dp_2x.png">
+    	</a>
+    </li>
+  </ul>
+</nav>
+<div class="profile-user-logged structure-nav-content">
+      <img class="profile-user-image" src="img/icon_user.png">
+      <span class="text-item-menu-nav item-user">Carla Miranda</span>
+</div>
+<div class="camada-profile structure-nav-content"></div>
+<div class="main-content">
+  <div ui-view="main"></div>
+</div>

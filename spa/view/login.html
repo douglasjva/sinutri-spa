@@ -1,0 +1,36 @@
+<div class="login">
+	<div class="row">
+		<div class="progress" ng-show="isLoading">
+		    <div class="indeterminate progress-login" style="width: 70%"></div>
+		</div>
+	    <div class="col s4 card-login">
+		    <div class="card white">
+		    	<div class="card-image">
+			      <img class="activator img-login-fundo" src="img/fundo-login.jpg">
+			      <span class="card-title-login">SiNutri</span>
+			    </div>
+			    <img class="img-login-logo" src="img/logo_sinutri_simbolo.png">
+		    	<div class="card-content black-text">
+			    	<div class="row">
+			    		<div class="input-field col s12">
+			    		  <i class="material-icons prefix">perm_identity</i>
+				          <input id="cpf" type="text" ng-model="cpf">
+				          <label for="cpf">CPF</label>
+				        </div>
+			    	</div>
+			    	<div class="row">
+			    		<div class="input-field col s12">
+			    			<i class="material-icons prefix">lock_open</i>
+				          <input id="senha" type="password" ng-model="password">
+				          <label for="senha">Senha</label>
+				        </div>
+			    	</div>
+			    	<div class="row">
+			    		<span class="message-error-login" ng-show="isError">{{errorMessage}}</span>
+			    		<a class="waves-effect waves-light btn btn-login" ng-click="requestAuthentication()">ENTRAR</a>
+			    	</div>
+				</div>
+		    </div>
+	    </div>
+	</div>
+</div>

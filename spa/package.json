@@ -1,0 +1,14 @@
+{
+  "name": "sinutri-spa",
+  "version": "1.0.0",
+  "description": "Sistema de Atendimento Nutricional",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Henrique - TCC",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}

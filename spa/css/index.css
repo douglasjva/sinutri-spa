@@ -1,0 +1,95 @@
+body {
+	background-color: #EDECEC;
+}
+.nav-menu {
+	background-color: #149C82;
+}
+
+.my{
+    padding: 0 0.45rem !important;
+}
+
+.btn {
+	background-color: #149C82 !important;
+}
+
+.btn-flat {
+	color: #149C82;
+}
+
+.row {
+	margin-bottom: 0px;
+}
+.main-content {
+	background-color: #EDECEC;
+	margin-left: 240px;
+}
+
+.list-menu {
+	height: 64px !important;
+}
+
+.profile-user-logged {
+	background-image: url('../img/fundo.jpg') !important;
+    background-size: cover;
+    color: white;
+	display: block;
+    height: 100px;
+    margin-bottom: 5px;
+    width: 240px;
+}
+
+.profile-user-image {
+	width: 50px;
+	vertical-align:middle;
+	margin-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.camada-profile {
+	background: rgba(0, 0, 0, 0.47);
+	display: block;
+    height: 100px;
+    margin-bottom: 5px;
+    width: 240px;
+    margin-left: -240px;
+}
+
+.bottom-toolbar {
+	margin-top: 160px;
+}
+.brand-logo {
+    font-weight: bold;
+}
+.logo-nav-bar {
+	width: 58px;
+	margin: 4px 5px;
+}
+
+.nav-menu-config{
+	width: 25px;
+    float: right;
+    margin: 20px 8px;
+}
+
+.icon-item-menu-nav {
+	width: 35px;
+	margin-bottom: 3px;
+	vertical-align:middle
+}
+
+.text-item-menu-nav {
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.item-user {
+	position: relative;
+    top: 25%;
+}
+
+.structure-nav-content {
+	float: left;
+}

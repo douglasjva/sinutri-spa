@@ -1,0 +1,26 @@
+#con .row .col{
+	padding-left: 0px !important;
+}
+
+.org-history {
+	padding-right: 0px !important;
+}
+
+.btn-new-consult {
+	width: 100%;
+}
+
+.history-weight {
+	padding-left: 1.50rem !important;
+}
+
+.menu-graphics {
+	font-weight: bold;
+	font-size: 12px !important;
+    float: right;
+    color: black;
+}
+
+.icon-menu-graphics {
+	float: right;
+}

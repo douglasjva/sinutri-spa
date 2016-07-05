@@ -1,0 +1,40 @@
+.title-search {
+	text-align: center;
+	color: #555555;
+	font-weight: bold;
+}
+
+.btn-search {
+	float: right;
+}
+
+.container-search {
+	margin-top: 10%;
+}
+
+.container-result-search {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.main-preloader-search {
+	position: absolute;
+    left: 55%;
+    top: 65%;
+}
+
+.main-message-search {
+	position: absolute;
+    left: 49%;
+    top: 75%;
+}
+
+.message-load-search {
+	color: #757575;
+	font-size: 1.2em;
+}
+
+.table-customization {
+	background-color: #E2E2E2;
+    border-radius: 10px;
+}

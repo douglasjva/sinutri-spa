@@ -1,0 +1,46 @@
+<div class="row">
+	<pattern-load ng-show="isLoading" message="loadingMessage"></pattern-load>
+	<div class="col s4 org-history" ng-show="isSuccess">
+		<information-patient person="person"></information-patient>
+		<div class="row">
+			<div class="col s12">
+				<a class="waves-effect waves-light btn btn-new-consult">Nova Consulta</a>
+			</div>
+		</div>
+	</div>
+	<consultations-patient id="con" ng-show="isSuccess" consultations="person.paciente.consultas" class="col s8"></consultations-patient>
+	<pattern-error ng-show="isError" message="errorMessage" action="tryAgain"></pattern-error>
+</div>
+<div class="row">
+	<div class="col s12 history-weight">
+	    <div class="card white">
+	    	<div class="card-content black-text">
+		    	<span class="card-title ">Histórico de Peso</span>
+		    	<img src="img/ic_arrow_drop_down_black_18dp_1x.png" class="icon-menu-graphics"></img>
+		    	<a href="" class="menu-graphics">Visualizar</a>
+			</div>
+	    </div>
+    </div>
+</div>
+<div class="row">
+	<div class="col s12 history-weight">
+	    <div class="card white">
+	    	<div class="card-content black-text">
+		    	<span class="card-title">Histórico do IMC</span>
+		    	<img src="img/ic_arrow_drop_down_black_18dp_1x.png" class="icon-menu-graphics"></img>
+		    	<a href="" class="menu-graphics">Visualizar</a>
+			</div>
+	    </div>
+    </div>
+</div>
+<div class="row">
+	<div class="col s12 history-weight">
+	    <div class="card white">
+	    	<div class="card-content black-text">
+		    	<span class="card-title">Histórico da circunferência da cintura</span>
+		    	<img src="img/ic_arrow_drop_down_black_18dp_1x.png" class="icon-menu-graphics"></img>
+		    	<a href="" class="menu-graphics">Visualizar</a>
+		    </div>
+	    </div>
+    </div>
+</div>

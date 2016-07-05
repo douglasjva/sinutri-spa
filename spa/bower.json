@@ -1,0 +1,22 @@
+{
+  "name": "sinutri-spa",
+  "description": "Sistema de Atendimento Nutricional",
+  "main": "index.html",
+  "authors": [
+    "Douglas Henrique - TCC"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "Materialize": "materialize#^0.97.6"
+  }
+}

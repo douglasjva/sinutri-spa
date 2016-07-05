@@ -1,0 +1,58 @@
+.card-title {
+	font-size: 18px !important;
+    font-weight: bold !important;
+    line-height: 0px !important;
+}
+
+.card {
+    margin: 0.5rem 0 0.7rem 0;
+}
+
+.img-information-patient {
+	width: 90px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.titles-center-card {
+	text-align: center;   
+	display: block;
+}
+
+.name-information-patient {
+	font-weight: bold;
+    margin-top: 7px
+}
+
+.sex-information-patient {
+    color: #383838;
+    font-size: 0.8em;
+}
+
+.email-information-patient {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.row-age {
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    clear:both;
+}
+
+.titles-information-patient {
+    font-size: 0.9em;
+    color: #383838;
+    font-weight: bold;
+    float:left;
+}
+.values-information-patient { 
+    float:right;
+    color: #383838;
+    font-size: 0.8em;
+}

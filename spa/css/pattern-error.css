@@ -1,0 +1,25 @@
+.img-error {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message-error {
+	color: #757575;
+	font-size: 1.4em;
+	text-align: center;   
+	display: block;
+}
+
+.button-try-again {
+	color: #149C82 !important;
+    width: 230px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-error {
+	width: 70%;
+    margin: 0 auto;
+}
