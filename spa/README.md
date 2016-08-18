@@ -1,9 +1,6 @@
 # Setup
 
 ```shell
-# Baixa os plugins usados no projeto
-sh plugins.sh
-
 # Configura algumas propriedades do projeto, como:
 #   * Um link para a pasta de fontes no Materialize
 sh config.sh
