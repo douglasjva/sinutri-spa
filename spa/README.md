@@ -5,15 +5,6 @@
 #   * Um link para a pasta de fontes no Materialize
 sh config.sh
 ```
-
-# Running
-
-Opean a terminal window or tab, and run:
-
-```shell
-sh starter.sh
-```
-
 # Guidilines
 
 Use incorporated mode to create services, controllers ...
